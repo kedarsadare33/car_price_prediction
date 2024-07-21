@@ -19,7 +19,7 @@ def app():
         #st.write('filename')
         df = pd.read_csv(filename, encoding="ISO 8859-1")
     else:
-        df = pd.read_csv("indian-auto-mpg.csv", #encoding="ISO 8859-1")
+        df = pd.read_csv("indian-auto-mpg.csv", encoding="ISO 8859-1")
 
 
     st.sidebar.header("Choose Your Filter")
