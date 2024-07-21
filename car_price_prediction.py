@@ -33,7 +33,7 @@ def app():
         col1, col2, col3 = st.columns(3)
 
         with col1:
-            Fuel_Type = st.selectbox('Select the Fuel Type', ['Petrol', 'Diesel', 'CNG', 'LPG'])
+            Fuel_Type = st.selectbox('Select Fuel Type', ['Petrol', 'Diesel', 'CNG', 'LPG'])
             Engine_CC = st.number_input('Enter Engine CC')
 
         with col2:
