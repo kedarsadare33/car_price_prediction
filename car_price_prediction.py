@@ -37,7 +37,7 @@ def app():
             Engine_CC = st.number_input('Enter Engine CC')
 
         with col2:
-            Transmission = st.selectbox('Select the Transmission', ['Manual', 'Automatic'])
+            Transmission = st.selectbox('Select Transmission', ['Manual', 'Automatic'])
             Power = st.number_input('Enter the Power')
 
         with col3:
