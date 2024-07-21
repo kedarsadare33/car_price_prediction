@@ -41,7 +41,7 @@ def app():
             Power = st.number_input('Enter the Power')
 
         with col3:
-            Owner_Type = st.selectbox('Select the Owner Type', ['First', 'Second', 'Third', 'Fourth'])
+            Owner_Type = st.selectbox('Select Owner Type', ['First', 'Second', 'Third', 'Fourth'])
             Seats = st.number_input('Enter the Seats')
 
         Mileage_KmL = st.slider('Enter Mileage of Car', 10, 30)
